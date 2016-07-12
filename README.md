@@ -852,9 +852,8 @@ myScroll = new IScroll('#wrapper', {
 ```
 <h5>If the form and A can't click,you can change scroll.js.</h5>
 ```js
-
-preventDefault: true,
 // preventDefault: false,
+preventDefault: true,
 preventDefaultException: { tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT|A)$/},
 ```
 
